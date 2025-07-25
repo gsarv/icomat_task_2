@@ -69,7 +69,7 @@ A dropdown (combobox) to choose which signal (column) to analyze & plot.
 
 ##  Example
 
-python app_gui.py
+Run in a terminal the script app_gui.py with python 3.8 or higher.
 
 Then:
 
