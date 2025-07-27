@@ -44,9 +44,9 @@ class SignalAnalyzer:
         
         tools_menu = tk.Menu(menubar, tearoff=0)
         tools_menu.add_command(label="Analyze Signal", command=self.analyze_signal)
-        tools_menu.add_command(label="Intetify Spikes", command=self.detect_spikes)
-        tools_menu.add_command(label="Intetify Stalls", command=self.detect_stalls)
-        tools_menu.add_command(label="Intetify Oscillations", command=self.detect_oscillations)
+        tools_menu.add_command(label="Identify Spikes", command=self.detect_spikes)
+        tools_menu.add_command(label="Identify Stalls", command=self.detect_stalls)
+        tools_menu.add_command(label="Identify Oscillations", command=self.detect_oscillations)
         tools_menu.add_command(label="Filter Signal", command=self.filtered_data)
         tools_menu.add_command(label="Filter Signal, Keep Spikes", command=self.filtered_data_keep_spikes)
         tools_menu.add_command(label="Restore Signal", command=self.restore_data)
